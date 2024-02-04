@@ -1,0 +1,41 @@
+#about {
+    background-image: url("https://zcube.in/mecare/img/an-bg/an-bg03.png");
+
+    .about_container {
+        .about_content {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            .about_left {
+                width: 48%;
+            }
+
+            .about_right {
+                width: 45%;
+
+                h4 {
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    color: #1E0B9B;
+                    letter-spacing: 2px;
+                    margin-bottom: 20px;
+                }
+
+                h2 {
+                    color: #013243;
+                    font-size: 48px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 15px;
+                    color: #4A5764;
+                }
+            }
+        }
+    }
+}

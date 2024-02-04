@@ -1,0 +1,63 @@
+#our_services {
+    background-image: url("https://zcube.in/mecare/img/an-bg/an-bg02.png");
+    padding: 120px 0px;
+
+    .services_container {
+        max-width: 1140px;
+        margin: auto;
+
+        .services_content {
+            .services-title {
+                text-align: center;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    color: #1E0B9B;
+                }
+
+                h2 {
+                    color: #013243;
+                    font-weight: 700;
+                    font-size: 46px;
+                }
+            }
+
+            .services_cards {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                .card2{
+                   margin-top: 80px;
+                }
+
+                .services_card {
+                    width: 32%;
+                    background-color: #f5f5f5;
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    border-radius: 50px;
+
+                    .card_content {
+                        padding: 80px  20px;
+
+                        .card_img {
+                            margin: auto;
+                            width: 80px;
+                            img {}
+                        }
+
+                        h3 {
+                            text-align: center;
+                        }
+
+                        p {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

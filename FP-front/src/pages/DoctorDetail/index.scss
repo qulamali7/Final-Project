@@ -1,0 +1,80 @@
+#detail_doctor{
+    padding: 80px 0px;
+    .detail_doctor_container{
+        max-width: 1140px;
+        margin: auto;
+        .detail_doctor_content{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            .doctor_left{
+                &_top{
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    .doctor_text{
+                        h3{
+
+                        }
+                        button{
+                            padding: 8px 12px;
+                            border: none;
+                            border-radius: 5px;
+                            background-color: #AAD9BB;
+                            color: #013243;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .doctor_right{
+                width: 400px;
+                background-color: #AAD9BB;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                &_content{
+                    padding: 30px;
+                    &_title{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        p{
+
+                        }
+                        h4{
+
+                        }
+                    }
+                    ul{
+                        li{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            span{
+
+                            }
+                            p{
+
+                            }
+                        }
+                    }
+                    button{
+                        background-color: blue ;
+                        color: white;
+                        padding: 12px 18px;
+                        border: none;
+                        border-radius: 5px;
+                        margin-top: 10px;
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.active_btn{
+    border-bottom: 5px;
+
+}

@@ -1,0 +1,28 @@
+#hero {
+    background-image: url("https://zcube.in/mecare/img/an-bg/header-bg.png");
+
+    .hero_container {
+        max-width: 1140px;
+        margin: auto;
+
+        .hero_content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .hero_text {
+                width: 50%;
+                h2 {
+                    font-weight: 700;
+                    color: #013243;
+                    font-size: 42px;
+                    margin-bottom: 25px;
+                }
+                p{
+                    color: #4A5764;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
