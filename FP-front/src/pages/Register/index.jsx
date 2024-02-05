@@ -47,15 +47,15 @@ const Register = () => {
                                         <input type="password" placeholder='Password' name='password' required value={formData.password} onChange={handleInput} />
                                     </div>
 
-                                    <div className='select_role'>
+                                    <div className='role_photo'>
+                                        <div className='select_role'>
                                         <label htmlFor="">Are you a:</label>
                                         <select name="role" id="" value={formData.role} onChange={handleInput}>
                                             <option value="patient">Patient</option>
                                             <option value="doctor">Doctor</option>
                                         </select>
-                                    </div>
-
-                                    <div className='form_photo_upload'>
+                                        </div>
+                                        <div className='form_photo_upload'>
                                         <figure>
                                             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCg3ECfhNnwn30E2r5J-Sb2UphwWfflyqgeA&usqp=CAU" alt="" />
                                         </figure>
@@ -64,11 +64,14 @@ const Register = () => {
                                             <label htmlFor="customfile">Upload Photo</label>
                                         </div>
                                     </div>
+                                    </div>
+
+                                    
 
                                     <button>Sign Up</button>
 
                                 </form>
-                                <p>Already have an acoount <Link to={"/login"}>Login</Link></p>
+                                <p>Already have an acoount? <Link to={"/login"}>Login</Link></p>
                             </div>
                         </div>
                     </div>

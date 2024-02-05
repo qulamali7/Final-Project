@@ -1,5 +1,5 @@
 header {
-    background-color: white;
+    background-color: #ECF1FA;
 
     .header_container {
         max-width: 1140px;
@@ -63,7 +63,7 @@ header {
                 .login_btn {
                     padding: 8px 24px;
                     color: white;
-                    background-color: blue;
+                    background: transparent linear-gradient(90deg, #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;
                     border: none;
                     cursor: pointer;
                     height: 44px;

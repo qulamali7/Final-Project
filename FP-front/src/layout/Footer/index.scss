@@ -1,9 +1,125 @@
-footer{
-    .footer_back{
-        background-color: #ECF1FA;
-        .footer_container{
+.footer_top{
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color: #ECF1FA;
+padding-bottom: 80px;
+    .footer_back {
+        .footer_container {
             max-width: 1140px;
             margin: auto;
+
+            .footer_content {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+
+                .footer_logo {
+                    width: 32%;
+
+                    .logos {
+                        width: 150px;
+                        margin-bottom: 30px;
+                        img {}
+                    }
+
+                    p {
+                        color: #4A5764;
+                        font-size: 15px;
+                        margin-bottom: 20px;
+                    }
+
+                    .footer_icons {
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+
+                        .footer_icon {
+                            width: 35px;
+                            height: 35px;
+                            border-radius: 50%;
+                            background: transparent linear-gradient(90deg, #294DA41F 0%, #43C0D557 100%) 0% 0% no-repeat padding-box;
+                            display: grid;
+                            place-items: center;
+                            transition: 0.5s all ease;
+
+                            i {
+                                color: #1E0B9B;
+                                font-family: 16px;
+                            }
+
+                            &:hover {
+                                cursor: pointer;
+                                background: transparent linear-gradient(90deg, #1E0B9B 0%, #07CCEC 100%) 0% 0% no-repeat padding-box;
+
+                                i {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer_links {
+                    padding-left: 80px;
+                    width: 32%;
+
+                    h4 {
+                        color: #013243;
+                        font-weight: 700;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+
+                    ul {
+                        li {
+                            margin-bottom: 20px;
+                            i{
+                                color: #1E0B9B;
+                                margin-right: 10px;
+                            }
+                            a{
+                                color: #4A5764;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+
+                .footer_contacts {
+                    width: 32%;
+                    h3{
+                        color: #013243;
+                        font-weight: 700;
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                    }
+                    .footer_contact_content{
+                        .contact_icons{
+                            display: flex;
+                            align-items: center;
+                            gap: 20px;
+                            margin-bottom: 20px;
+                            .contact_icon{
+                                width: 40px;
+                                height: 40px;
+                                border-radius: 50%;
+                                background-color: #1E0B9B;
+                                display: grid;
+                                place-items: center;
+                                i{
+                                    color: white;
+                                    font-size: 15px;
+                                }
+                            }
+                            p{
+
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
