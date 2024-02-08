@@ -28,10 +28,10 @@ export const register = async (req, res) => {
         const hash = await bcrypt.hash(password, salt)
 
         if (role === "patient") {
-            user = new UserModel({ email, password: hash, name, role, photo, gender })
+            user = new UserModel({ email, password: hash, name, role, photo })
         }
         if (role === "doctor") {
-            user = new DoctorModel({ email, password: hash, name, role, photo, gender })
+            user = new DoctorModel({ email, password: hash, name, role, photo })
         }
 
         await user.save()

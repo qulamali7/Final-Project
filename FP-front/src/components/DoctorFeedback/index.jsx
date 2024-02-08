@@ -10,7 +10,7 @@ const DoctorFeedback = () => {
                     <h4>All reviews(272)</h4>
                     <div>
                         <div>
-                            <figure><img src={avatar} alt="" /></figure>
+                            <figure><img src="" alt="" /></figure>
                         </div>
                         <div>
                             <h5>Ali Ahmed</h5>

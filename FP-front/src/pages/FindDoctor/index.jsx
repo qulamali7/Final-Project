@@ -7,7 +7,7 @@ const FindDoctor = () => {
         try {
             await fetch("http://localhost:3100/doctors")
                 .then(res => res.json())
-                .then(data => setDoctors(data.data))
+                .then(data => setDoctors(data))
         } catch (error) {
             console.log(error.message);
         }

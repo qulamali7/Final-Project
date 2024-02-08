@@ -11,7 +11,7 @@ const DoctorDetail = () => {
         try {
             await fetch("http://localhost:3100/doctors/" + id)
                 .then(res => res.json())
-                .then(data => setDetailDoctor(data.data))
+                .then(data => setDetailDoctor(data))
         } catch (error) {
             console.log(error.message);
         }

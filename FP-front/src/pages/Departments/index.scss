@@ -1,0 +1,73 @@
+#departments {
+    .page_title {
+        background-image: url("https://demo2.themewarrior.com/hospitalplus/wp-content/themes/hospitalplus/images/header/header.jpg");
+        display: grid;
+        place-items: center;
+        min-height: 50vh;
+
+        h1 {
+            color: #013243;
+            font-weight: 700;
+            font-size: 60px;
+
+        }
+    }
+
+    .departments_container {
+        padding: 80px 0px;
+        max-width: 1140px;
+        margin: auto;
+
+        .departments_content {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            .departments_cards {
+                .departments_card {
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+                    margin-bottom: 80px;
+                    .card_img {
+                        border-radius: 10px;
+                        width: 48%;
+                        height: 350px;
+                        overflow: hidden;
+                        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                        &:hover img{
+                            transform: scale(1.2);
+                        }
+                        img {
+                            height: 100%;
+                            width: 100%;
+object-fit: cover;
+                            border-radius: 10px;
+                            transition: 0.5s all ease;
+                        }
+                    }
+
+                    .card_text {
+                        width: 48%;
+                        .line{
+                            width: 40px;
+                            height: 3px;
+                            margin-bottom: 5px;
+                            background-color: #013243;
+                        }
+                        h3 {
+                            color: #013243;
+                            font-weight: 600;
+                            font-size: 24px;
+                            margin-bottom: 20px;
+                        }
+
+                        p {
+                            color: gray;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
